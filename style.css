@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.background {
+  height: 100vh;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 320px;
+  height: 497px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 20px;
+}
+.box2 {
+  width: 288px;
+  height: 288px;
+  background-color: #2c7dfa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.QR {
+  width: 160px;
+  height: 160px;
+}
+.text-box {
+  width: 288px;
+  height: 129px;
+}
+.heading {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.paragraph {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.188px;
+  text-align: center;
+  margin-top: 5px;
+}
